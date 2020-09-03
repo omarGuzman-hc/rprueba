@@ -1,0 +1,27 @@
+if svechanges c#
+https://www.youtube.com/watch?v=7mtlkKpCBec
+https://www.geeksforgeeks.org/how-to-check-whether-a-checkbox-is-checked-in-jquery/#:~:text=prop()%20and%20is(),its%20checked%20or%20unchecked%20status.
+
+aghonducafe@gmail.com
+omarGuzman-hc
+api mvc core
+ventajas de utilizar un stored procedure
+k28
+https://www.c-sharpcorner.com/article/using-crystal-report-with-asp-net-mvc-5/
+embed
+asyn await js
+https://docs.microsoft.com/en-us/sql/relational-databases/express-localdb-instance-apis/command-line-management-tool-sqllocaldb-exe?view=sql-server-ver15
+https://www.syncfusion.com/blogs/post/build-crud-application-with-asp-net-core-entity-framework-visual-studio-2019.aspx
+
+
+////////////////////////////////////////
+AxelGuzman_hchoy a las 10:36
+omarGuzman-hc
+////////////////////////////////////////
+
+
+
+
+
+
+exportaciones syscape y omerzializacion
