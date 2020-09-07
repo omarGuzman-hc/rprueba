@@ -1,0 +1,41 @@
+public action result index(){
+List<Tabla> lst = null;
+using(Models.identity db = new Models.identity());
+{
+
+lst = from d in db.tabla select new {
+	id = d.id,
+	desc = d.descripcion							
+}).ToList();
+
+}
+
+Listt<SelectListItems> items = lst.ConvertAll(d => { return new SelectListItem(){
+Text = d.nombre.tostring(),
+Value = d.Id.ToString(),
+Selected = false
+
+	};
+});
+
+Viebaag,items = items;
+return view();
+}
+
+
+
+
+
+en la vista:
+
+
+@{
+	Viewbag.Title = x;
+	List<SelectListItem> items = (List<SelectListItems>)viewbag.Items;
+}
+
+
+
+
+@Html.DropdownList("Nombre",items,"Selecciona algo", new{@class="dorm-control"})
+https://www.c-sharpcorner.com/article/use-crystal-report-in-mvc-net/
