@@ -38,4 +38,13 @@ en la vista:
 
 
 @Html.DropdownList("Nombre",items,"Selecciona algo", new{@class="dorm-control"})
+
+
+
+
+
+
+https://www.youtube.com/watch?v=iY6GtixLwdw
 https://www.c-sharpcorner.com/article/use-crystal-report-in-mvc-net/
+https://www.youtube.com/watch?v=tiG71g9YnMw
+https://www.youtube.com/watch?v=Q4JFNyFfSXI
