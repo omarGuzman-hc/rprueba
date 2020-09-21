@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=JtGsbKQqJbo&app=desktop
+https://www.youtube.com/watch?v=W2kwFwUunIc
+https://www.youtube.com/watch?v=6evxIjOEgB0
+https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.any?view=netcore-3.1
