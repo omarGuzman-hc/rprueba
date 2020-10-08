@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<h1>Esta seccion es con jquery principalmente orientado a textos modificando el dom</h1>
+<title>Title</title>
+<style type="text/css">
+    html{
+        margin: 5%;
+    }
+</style>
+</head>
+<body>
+        <p>En este ejemplo tomaremos el atributo href de varios a y los cambiaremos de forma dinamica alterando su valor con .each</p>
+        <ul id="lista">
+            <li>
+                <a href="https://www.youtube.com/watch?v=qVdPh2cBTN0&list=PLdLiyRrhD1MooJigCb5lP_weNZqtmOUSP&index=28"></a>
+            </li>
+            <li>
+                <a href="https://www.google.com"></a>
+            </li>
+        </ul>
+        <h3 id="">Insertar enlaces nuevos</h3>
+        <br>
+        <input type="url" id="enlace" placeholder="link">
+        <input type="button" value="agregar nuevo" name="" id="add">
+    </div>
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(
+        ()=>{
+            recargar();
+        }
+        
+    );
+    $('#add').click(
+      ()=>{
+          var link = $("#enlace").val();
+          $('#lista').prepend('<li><a href="'+ link +'"</a></li>');
+            recargar();
+      }  
+    );
+    function recargar(){
+        $('a').each(
+            function (a){
+                console.log($(this).attr("href"));
+                var a = $(this).attr("href");
+                $(this).text(a);
+            }
+        );
+    }
+    console.log($('a').length);
+</script>
+</html>
